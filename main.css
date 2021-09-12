@@ -12,6 +12,7 @@ html{
     color: #eee;
     overflow: scroll;
     overflow-x: hidden;
+    outline: none;
   
     
 }
@@ -28,6 +29,7 @@ body{
     background: url('images/sitebg.jpg') no-repeat center fixed;
     background-size: cover;
     overflow-x: hidden; 
+    outline: none;
     
   
     
