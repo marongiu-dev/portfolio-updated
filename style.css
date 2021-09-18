@@ -18,6 +18,26 @@
   
   
 }*/
+:root {
+  --gradient: linear-gradient(
+    45deg,
+    #f4dc2b,
+    #ac6200,
+    #9d00ff,
+    #4a0291
+
+  );
+  --gradient2:linear-gradient(
+    45deg,
+    rgb(49, 128, 0),
+    rgb(43, 223, 67),
+    rgb(40, 192, 230),
+    rgb(64, 0, 96),
+    rgb(173, 3, 220)
+
+
+  );
+}
 
 body::before{
   content:'';
@@ -26,7 +46,10 @@ body::before{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgb(1, 163, 22),rgb(0, 162, 202)) ;
+  background-image: var(--gradient2);
+  background-size: 300%;
+  animation: bg-animation 15s infinite alternate;
+  background-image: var(--gradient2);
   clip-path: circle(24% at right 75%);
 }
 
@@ -37,14 +60,30 @@ body::after{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#ffee00,#ac6200);
+  background-image: var(--gradient);
+  background-size: 300%;
+  animation: bg-animation 15s infinite alternate;
+  
   clip-path: circle(18% at 10% 70%);
 }
+
+@keyframes bg-animation {
+  0%{
+    background-position: left;
+  }
+  100%{
+    background-position: right;
+
+  }
+}
+
 
 section{
   position:relative;
   
 }
+
+
 /*section::before{
   content:'';
   position:absolute;

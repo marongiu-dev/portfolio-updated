@@ -32,6 +32,29 @@
             radial-gradient(ellipse at bottom, #a206c2, transparent);   
     align-items: center;
     }
+
+    .wrap_container_portfolio{
+    height: 40vh;
+    
+    text-align: right;
+    background: radial-gradient(ellipse at top, #2acdff, transparent),
+            radial-gradient(ellipse at bottom, #0026ff, transparent);   
+    align-items: center;
+    opacity: 1.0;
+    clip-path: circle(12% at right 50%);
+    }
+
+    .wrap_container_portfolio:hover{
+        border-radius: 5%;
+    height: 50vh;   
+    text-align: right;
+    background: radial-gradient(ellipse at top, #07bdff, transparent),
+            radial-gradient(ellipse at bottom, #0008ff, transparent);   
+    clip-path: circle(20% at right 49%);
+    }
+
+
+
     .cv{
     
     
@@ -46,6 +69,42 @@
     padding-top: 10px;
   
     }
+
+    .wrap_container_portfolio .portfolio{
+    font-size:40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'The historia demo', sans-serif;    background: linear-gradient(to top,#f9f9f9,#ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 8%;
+    padding-right: 1.2%;
+  
+    }
+
+    .wrap_container_portfolio:hover .portfolio{
+        font-size: 75px;
+        padding-top: 9%;
+        background: linear-gradient(to top,#ffffff,#ffffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'The historia demo', sans-serif;
+
+        
+    }
+      .wrap_container_portfolio .portfolio:hover{
+       
+        background: linear-gradient(to top,#ffe838,#fd57bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        font-family: 'The historia demo', sans-serif;
+
+        
+    }
+
+
 
     .certificates{
     margin: auto;
@@ -118,6 +177,13 @@
                 </li>
         
               </ul>
+
+              <div class="wrap_container_portfolio">
+                <div class="portfolio"> 
+                    <a href="my_portfolio.html"  >Portfolio</a>
+
+                </div>
+            </div>
 
             
     
