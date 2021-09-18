@@ -976,20 +976,22 @@ input[type='submit']:hover{
         background: url('images/sitebg.jpg') no-repeat center fixed;
         background-size: cover;
     }
+   
 
     img{
-        width: 90%;
+        width: 300%;
         margin-bottom: 30px;
         display: block;
   margin-left: auto;
   margin-right: auto;
     }
+   
 
     .learning .container .gamezone{
         display: block;
       margin-left: auto;
       margin-right: auto;
-        width: 65%;
+        width: 95%;
         margin-bottom: 100px;
 
     }
@@ -1081,12 +1083,16 @@ margin-bottom:-70px;
   
     }
 
-    .gamezone{
+    .learning .container .gamezone{
         display: block;
       margin-left: auto;
       margin-right: auto;
-        
+        width: 95%;
+        margin-bottom: 100px;
+
     }
+
+  
 
      .menu-toggler{
          top: 2rem;
